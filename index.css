@@ -1,0 +1,132 @@
+
+.tiles{
+    text-align: center;
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.tiles:hover{
+    filter:brightness(0.8);
+}
+
+/*
+.flip-card-inner {
+
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform: rotateY(180deg);
+}
+  */
+#board{
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    height: 80%;
+    width: 90%;
+}
+
+.boardClass{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.answer{
+    text-align: center;
+    background-color:purple;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+.rotate{
+    
+    text-align: center;
+    height: 80%;
+    width: 90%;
+    transform: rotate(90deg);
+    transition-duration: 2s;
+    
+}
+
+/*
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+    backface-visibility: hidden;
+  }
+
+.flip-card-back {
+    background-color: #2980b9;
+    width: 50px;
+    height: 50px;
+    transform: rotateY(180deg);
+}
+*/
+.clickCorrect{
+    text-align: center;
+    background-color:blue;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+.clickIncorrect{
+    text-align: center;
+    background-color:red;
+    width: 50px;
+    height: 50px;
+    border: solid black 2px;
+    display: inline-block;
+}
+
+#title{
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+#description{
+    text-align: center;
+    margin-top: -100px;
+}
+
+#helper{
+    text-align: center;
+    margin-left: -100px;
+}
+#myButton{
+    position:absolute;
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+
+.score{
+    text-align: center; 
+}

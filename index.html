@@ -1,0 +1,26 @@
+<html>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+            <script type = "text/javascript" src = "index.js"></script>
+
+            <style>
+                    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+            </style>
+            <link rel = "stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1 id = "title">MEMORY GAME</h1>
+        
+        
+        <audio id = "audio" src = "clickSound.mp3" style=" display:none" autoplay = "false"></audio>
+        <h3 id = "score"></h3>
+        <div id = "board" class = "boardClass">
+            
+        </div>
+        <h3 id = "description">Click on the Tiles!</h3>
+        <div id = helper>
+                <button id = "myButton" onclick = "goSummary()">Terminate</button>
+        </div>
+    </body>
+</html>
